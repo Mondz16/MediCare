@@ -17,6 +17,7 @@ public class MediCare {
         // TODO code application logic here
         
         // initialize the JFrames
+        System.out.println("Test Commit");
     }
     
     public static void InitializePharmaciesInventory(){
