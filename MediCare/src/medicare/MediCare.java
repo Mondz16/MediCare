@@ -17,7 +17,6 @@ public class MediCare {
         // TODO code application logic here
         
         // initialize the JFrames
-        System.out.println("Test");
     }
     
     public static void InitializePharmaciesInventory(){
