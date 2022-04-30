@@ -4,6 +4,10 @@
  */
 package medicare;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Scanner;
+
 /**
  *
  * @author Christian
@@ -13,11 +17,11 @@ public class MediCare {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException, IOException {
         // TODO code application logic here
         
-        // initialize the JFrames
-        System.out.println("Test Commit");
+        MainPanel main = new MainPanel();
+        main.setVisible(true);
     }
     
     public static void InitializePharmaciesInventory(){
